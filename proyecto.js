@@ -21,7 +21,7 @@ let lugar = () => {
       total += 110;
       break;
     default:
-      console.log(
+      alert(
         "El lugar que mencionaste esta mal escrito o no esta disponible en estos momentos para viajar, intentalo de nuevo para calcular correctamente el costo de tu viaje"
       );
   }
@@ -36,9 +36,7 @@ if (clase === "primera clase") {
 } else if (clase === "clase turista") {
   total += 200;
 } else {
-  console.log(
-    "La opcion que escribiste es incorrecta, porfavor vuelve a interntalo"
-  );
+  alert("La opcion que escribiste es incorrecta, porfavor vuelve a interntalo");
 }
 
 let estacion = prompt(
@@ -53,7 +51,7 @@ if (estacion === "primavera") {
 } else if (estacion === "invierno") {
   total += 180;
 } else {
-  console.log(
+  alert(
     "La estacion o palabra que escribiste es incorrecta, porfavor vuelve a interntalo"
   );
 }
@@ -74,7 +72,7 @@ if (dias === "A") {
 } else if (dias === "F") {
   total += 300;
 } else {
-  console.log(
+  alert(
     "La letra o palabra que escribiste es incorrecta, porfavor vuelve a interntalo"
   );
 }
@@ -89,9 +87,7 @@ if (estrellas === "3 estrellas") {
 } else if (estrellas === "5 estrellas") {
   total += 300;
 } else {
-  console.log(
-    "La opcion que escribiste es incorrecta, porfavor vuelve a interntalo"
-  );
+  alert("La opcion que escribiste es incorrecta, porfavor vuelve a interntalo");
 }
 
 let guiaTuristico = prompt(
@@ -102,9 +98,7 @@ if (guiaTuristico === "con guia turistico") {
 } else if (guiaTuristico === "sin guia") {
   total += 0;
 } else {
-  console.log(
-    "La opcion que escribiste es incorrecta, porfavor vuelve a interntalo"
-  );
+  alert("La opcion que escribiste es incorrecta, porfavor vuelve a interntalo");
 }
 
 let personas = prompt(
@@ -143,7 +137,7 @@ switch (personas) {
     total *= 10;
     break;
   default:
-    console.log(
+    alert(
       "El numero que escribiste sobrepasa el limite establecido de personas o esta incorrecto, porfavor vuelve a intertarlo"
     );
 }

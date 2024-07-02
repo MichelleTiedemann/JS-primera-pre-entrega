@@ -138,7 +138,7 @@ switch (personas) {
     break;
   default:
     alert(
-      "El numero que escribiste sobrepasa el limite establecido de personas o esta incorrecto, porfavor vuelve a intertarlo"
+      "El numero que escribiste sobrepasa el limite establecido de personas o esta incorrecto, porfavor vuelve a intertarlo para obtener el costo del viaje correcto"
     );
 }
 

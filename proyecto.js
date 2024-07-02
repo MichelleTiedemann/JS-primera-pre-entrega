@@ -1,15 +1,3 @@
-/*let presupuesto = prompt("Escribe aqui tu presupuesto");
-let total = 0;
-for (presupuesto; presupuesto < total; presupuesto -= total) {
-
-  if (presupuesto <= total) {
-    console.log(
-      "su presupuesto es menor al costo del viaje, porfavor inicie de nuevo el sistema y eliga opciones que piense que son menos costas para que se adecue a su presupuesto"
-    );
-  } else presupuesto >= total;
-  console.log("Genial! Su presupuesto supera el costo del viaje!");
-}*/
-
 let total = 0;
 
 let lugar = () => {
@@ -161,3 +149,10 @@ switch (personas) {
 }
 
 console.log("La suma de tu total es de " + total + "  dolares");
+
+let numeroTelefono = prompt(
+  "Genial, ya sabemos el costo de su viaje, escriba su numero de contacto, lo contactaremos entre algunos de los dias que se muetran en consola, segun la demanda que tengamos de nuestro servicio,  para asi terminar de arreglar detalles para su viaje. Gracias por elegirnos!!"
+);
+for (let i = 5; i >= 1; i--) {
+  console.log("En " + i + " dias habiles");
+}
